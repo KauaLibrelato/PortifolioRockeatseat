@@ -1,0 +1,485 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;400;700&display=swap');
+
+*{
+    margin: 0;
+    font-family: 'Merriweather Sans';
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #837E9F;
+}
+
+body{
+    background-color:#22212C;
+    display:flex;
+    justify-content: center;
+    padding: 40px;
+    gap: 40px;
+}
+
+aside{
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.title{
+    font-size:20px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 20px;
+}
+
+.myName{
+    font-size: 23px;
+    line-height: 28.9px;
+    font-weight: 700;   
+    top: 230px;
+    left: 116px;
+}
+
+.descriptionMe{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 348px;
+    height: 292px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    background-color: #302F3D;
+}
+
+.myPicture{
+    margin-bottom: 30px;
+    width:128px;
+    height: 128px;
+    border: 2px solid #00FF00;
+    border-radius: 128px;
+}
+
+.university{
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    width: 128px;
+    height: 17px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+}
+
+.boxOfLinks{
+    padding: 30px 40px;    
+    margin-top: 30px;
+    gap: 15px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 348px;
+    height: 348px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    background-color: #302F3D;
+}
+
+.icon{
+    width: 24px;
+    height: 24px;
+}
+
+.links{
+    gap: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.linkName{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+}
+
+.technology{
+    padding: 30px 30px;    
+    margin-top: 30px;
+    gap: 15px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 348px;
+    height: auto;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    background-color: #302F3D;
+}
+
+.code{
+    width: 86px;
+    height: 24px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #CB92B1;
+    color: black;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 13px;
+    text-align: center;
+}
+.languages{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.experiences{
+    padding: 30px 30px;    
+    margin-top: 30px;
+    gap: 15px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 348px;
+    height: auto;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    background-color: #302F3D;
+}
+
+.listExperiences{
+    width: 175px;
+    height: auto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.description{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.education{
+    padding: 30px 30px;    
+    margin-top: 30px;
+    gap: 15px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 348px;
+    height: auto;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    background-color: #302F3D;
+}
+
+.listEducations{
+    width: 175px;
+    height: auto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.myProjects{
+    padding-inline: 40px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center; 
+    width: 952px;
+    height: 86px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    background-color: #302F3D;
+}
+
+.seeAll{
+    border: none;
+    background-color: transparent;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17.6px;
+    width: 85px;
+    height: 18px;
+    cursor: pointer;
+}
+
+
+.titleMP{
+    width: 121px;
+    height: 26px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.descriptionFeed{
+    width: 28px;
+    height: 16px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.iconFeed{
+    width: 20px;
+    height: 20px;
+}
+
+.feed1{
+    padding:30px;
+    margin-top: 7px;
+    width: 461px;
+    height: 186px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    background-color: #302F3D;
+}
+
+.titleFeed1{
+    display: flex;
+    gap: 16px;
+}
+
+.descriptionFeed1{
+    margin-top: 22px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.footerFeed{
+    display: flex;   
+    padding-top: 30px;
+    align-items: center;
+    gap: 8px;
+    justify-content: space-between;
+}
+
+.projects{
+    display: flex;
+    gap: 30px;
+}
+
+.feed2{
+    padding:30px;
+    margin-top: 7px;
+    width: 461px;
+    height: 186px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    background-color: #302F3D;
+}
+
+.JS{
+    width: 90px;
+    height: 19px;
+}
+
+.descriptionFeed{
+    width: 28px;
+    height: 16px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 15px;
+}
+
+.pontuation{
+    display: flex;
+    align-items: center;
+    gap:8px;
+}
+
+.recentPosts{
+    padding-inline: 40px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center; 
+    width: 952px;
+    height: 86px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    background-color: #302F3D;
+}
+
+.titleRP{
+    width: 140px;
+    height: 26px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.post{
+    width: 952px;
+    height: 201px;
+    padding-top:30px;
+    padding-inline: 40px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    background-color: #302F3D;
+}
+
+.myPicture2{
+    margin-bottom: 30px;
+    width:128px;
+    height: 128px;
+    border: none;
+    border-radius: 128px;    
+}
+
+.titleP{
+    width: 612px;
+    height: 31px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+.descriptionPost{
+    width: 501px;
+    height: 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 28px;
+}
+.postDetails{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+.hashtagsGroup{
+    display: flex;
+    margin-top: 11px;
+    gap:10px;
+}
+.hashtags{
+    display: flex;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.subTitle{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+@media(max-width:1400px){
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+    .descriptionMe, .boxOfLinks, .technology, .languages, .experiences, .education{
+        width: 100%;
+    }
+    .technology{
+        height: 110%;
+    }
+    .feed1, .feed2{
+        width: 50%;
+    }
+     .recentPosts, .myProjects{
+        width: 100%;
+     }
+     .projects{
+         flex-direction: row;
+         width: 100%;
+         align-items: center;
+     }
+     .post{
+         width: 100%;
+         height: auto;
+         gap: 10px;
+     }
+     
+     .titleP, .descriptionPost, .subTitle, .hashtagsGroup{
+        width: 100%;
+        margin-bottom: 20px;
+     }
+    
+     .hashtagsGroup{
+         flex-wrap: wrap;
+     }
+     .descriptionPost{
+         gap: 30px;
+     }
+}
+
+@media (max-width: 425px) {
+   .feed1, .feed2, .post{
+       height: auto;
+       padding: 17px;
+   }
+   .titleFeed1{
+       font-size: 14px;
+   }
+   .iconFeed{
+       height: 14px;
+   }
+   .descriptionFeed1, .descriptionFeed{
+       font-size: 13px;
+   }
+   .footerFeed{
+       display: flex;
+       flex-direction: column;
+   }
+   .JS{
+        width: 70%;
+   }
+   .myPicture2{
+        width:90px;
+        height: 90px;
+        margin-bottom:0px;
+   }
+   .post{
+        flex-direction: column;
+        align-items: center;
+   }
+   .subTitle{
+       margin-top: 47px;
+   }
+   .descriptionPost{
+    margin-top:0px;
+}
+}
+
+
+  
+
+
