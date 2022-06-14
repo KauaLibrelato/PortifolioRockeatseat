@@ -138,6 +138,7 @@ main{
     line-height: 13px;
     text-align: center;
 }
+
 .languages{
     display: flex;
     justify-content: center;
@@ -432,7 +433,6 @@ main{
         width: 100%;
         margin-bottom: 20px;
      }
-    
      .hashtagsGroup{
          flex-wrap: wrap;
      }
@@ -482,17 +482,47 @@ main{
 ::-webkit-scrollbar {
     width: 20px;
   }
-  
   ::-webkit-scrollbar-track {
     box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);; 
     border-radius: 10px;
   }
-  
   ::-webkit-scrollbar-thumb {
     background:  #414052;  
     border-radius: 10px;
   }
-  
-  
 
-
+@media(max-width: 375px){
+    .projects{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .footerFeed{
+        display: flex;
+        flex-direction: row;
+    }
+    .feed1, .feed2{
+        width: 100%;
+        height: auto;
+    }
+    .linkName{
+       font-size: 11px;
+    }
+    .JS{
+        width: 30%;
+   }
+   .myPicture2{
+    width:90px;
+    height: 90px;
+    margin-bottom:0px;
+    }
+    .post{
+    flex-direction: column;
+    align-items: center;
+    }
+    .subTitle{
+   margin-top: 47px;
+    }
+    .descriptionPost{
+    margin-bottom: 40px;
+    }   
+    }
